@@ -3,6 +3,6 @@ node default {
     ensure  =>  file,
     content =>  'This is a readme',
     owner   =>  'root',
-    mode    =>  0644,
+    mode    =>   644,
   }
 }

@@ -15,7 +15,7 @@ package { "ntp":
   }
 
 #NTP service START
-service { "ntp":
+service { "ntpd":
   ensure => "running",
   }
   

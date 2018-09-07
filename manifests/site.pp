@@ -7,7 +7,7 @@ node default {
 }
 
 #Definition of a class
-class NTPinstall {
+class ntppack {
 
 #NTP Package
 package { "ntp":

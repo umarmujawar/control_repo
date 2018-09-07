@@ -21,4 +21,4 @@ service { "ntp":
   
 }
 
-include NTPinstall
+include ntppack

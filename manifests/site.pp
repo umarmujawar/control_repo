@@ -5,3 +5,20 @@ node default {
     owner   => 'root',
   }
 }
+
+#Definition of a class
+class NTPinstall {
+
+#NTP Package
+package { "ntp":
+  ensure => "present",
+  }
+
+#NTP service START
+service { "ntp":
+  ensure => "running",
+  }
+  
+}
+
+include NTPinstall

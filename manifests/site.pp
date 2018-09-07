@@ -1,17 +1,7 @@
 
-#Definition of a class
-class ntppack {
-
-#NTP Package
-package { "ntp":
+#File
+File { "/home/centos/test":
   ensure => "present",
   }
 
-#NTP service START
-service { "ntpd":
-  ensure => "running",
-  }
-  
-}
 
-include ntppack

@@ -5,3 +5,8 @@ node 'agent1.test.com' {
   
 }
 
+#Define Default
+
+node 'default' {
+
+}

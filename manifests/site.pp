@@ -1,7 +1,7 @@
+#define node
+node 'agent1.test.com' {
 
-#File
-File { "/home/centos/test":
-  ensure => "present",
-  }
-
+  include ntpdemo
+  
+}
 

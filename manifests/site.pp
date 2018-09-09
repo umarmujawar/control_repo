@@ -7,7 +7,7 @@ node 'agent1.test.com' {
       content => "server 0.centos.pool.ntp.org iburst\n",
     }
   }
-}
+[-]
 
 #Define Default
   node 'default' {
@@ -17,4 +17,3 @@ node 'agent1.test.com' {
       content => "hi there",
     }
   }
-}
